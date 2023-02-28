@@ -3,8 +3,32 @@
 on:
   push:
     branches: [main, master]
+    paths:
+      - 'README.Rmd'
+      - 'README.md'
+      - 'index.Rmd'
+      - 'index.md'
+      - 'man/**'
+      - 'vignettes/**'
+      - '_pkgdown.yml'
+      - 'pkgdown/**'
+      - 'DESCRIPTION'
+      - '.Rbuildignore'
+      - '.github/**'
   pull_request:
     branches: [main, master]
+    paths:
+      - 'README.Rmd'
+      - 'README.md'
+      - 'index.Rmd'
+      - 'index.md'
+      - 'man/**'
+      - 'vignettes/**'
+      - '_pkgdown.yml'
+      - 'pkgdown/**'
+      - 'DESCRIPTION'
+      - '.Rbuildignore'
+      - '.github/**'
   release:
     types: [published]
   workflow_dispatch:

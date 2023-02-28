@@ -3,8 +3,22 @@
 on:
   push:
     branches: [main, master]
+    paths:
+      - 'R/**'
+      - 'src/**'
+      - 'tests/**'
+      - 'inst/**'
+      - 'DESCRIPTION'
+      - '.github/workflows/test-coverage.yaml'
   pull_request:
     branches: [main, master]
+    paths:
+      - 'R/**'
+      - 'src/**'
+      - 'tests/**'
+      - 'inst/**'
+      - 'DESCRIPTION'
+      - '.github/workflows/test-coverage.yaml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
