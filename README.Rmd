@@ -36,8 +36,8 @@ You can install the development version of {{ packagename }} from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("{{ gh_repo }}")
+# install.packages("pak")
+pak::pkg_install("{{ gh_repo }}")
 ```
 
 ## Example
