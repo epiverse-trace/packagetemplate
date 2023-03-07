@@ -37,7 +37,7 @@ You can install the development version of {{ packagename }} from
 
 ``` r
 # install.packages("pak")
-pak::pkg_install("{{ gh_repo }}")
+pak::pak("{{ gh_repo }}")
 ```
 
 ## Example
