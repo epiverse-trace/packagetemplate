@@ -59,11 +59,6 @@ for use outside of the development team.
 
 Contributions are welcome via [pull requests](https://github.com/{{ gh_repo }}/pulls).
 
-Contributors to the project include:
-
-* 
-* 
-
 ### Code of Conduct
 
 Please note that the {{ packagename }} project is released with a 
