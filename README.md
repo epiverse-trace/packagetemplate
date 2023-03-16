@@ -47,11 +47,6 @@ package is not ready for use outside of the development team.
 Contributions are welcome via [pull
 requests](https://github.com/%7B%7B%20gh_repo%20%7D%7D/pulls).
 
-Contributors to the project include:
-
-- 
-- 
-
 ### Code of Conduct
 
 Please note that the {{ packagename }} project is released with a
