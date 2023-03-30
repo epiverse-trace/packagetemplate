@@ -30,7 +30,7 @@ knitr::opts_chunk$set(
 {{ packagename }} provides functions to ....
 
 <!-- This sentence is optional and can be removed -->
-{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE](https://data.org/initiatives/epiverse/).
+{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE program](https://data.org/initiatives/epiverse/).
 
 ## Installation
 
