@@ -20,11 +20,6 @@ knitr::opts_chunk$set(
 
 # {{ packagename }}
 
-{{ packagename }} provides functions to ....
-
-<!-- This sentence is optional and can be removed -->
-{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE](https://data.org/initiatives/epiverse/).
-
 <!-- badges: start -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R-CMD-check](https://github.com/{{ gh_repo }}/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/{{ gh_repo }}/actions/workflows/R-CMD-check.yaml)
@@ -32,6 +27,10 @@ knitr::opts_chunk$set(
 [![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept) 
 <!-- badges: end -->
 
+{{ packagename }} provides functions to ....
+
+<!-- This sentence is optional and can be removed -->
+{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE](https://data.org/initiatives/epiverse/).
 
 ## Installation
 
