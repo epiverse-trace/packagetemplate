@@ -7,8 +7,6 @@
 
 # {{ packagename }}
 
-{{ packagename }} provides functions to ….
-
 <!-- badges: start -->
 
 [![License:
@@ -18,6 +16,14 @@ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.or
 coverage](https://codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D/branch/main/graph/badge.svg)](https://app.codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D?branch=main)
 [![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept)
 <!-- badges: end -->
+
+{{ packagename }} provides functions to ….
+
+<!-- This sentence is optional and can be removed -->
+
+{{ packagename }} is developed at the [CENTER\|similar](url) at the
+[UNIVERSITY\|similar](url) as part of the [Epiverse-TRACE
+program](https://data.org/initiatives/epiverse/).
 
 ## Installation
 
