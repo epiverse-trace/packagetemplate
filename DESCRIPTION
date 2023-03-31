@@ -5,7 +5,9 @@ Authors@R: c(
     person(given = "Thibaut", family = "Jombart", , email = "thibaut@data.org", role = c("aut", "cre")),
     person(given = "Avinash", family = "Laddha", , email = "avinash@data.org", role = c("aut")),
     person(given = "James M.", family = "Azam", , email = "james.azam@lshtm.ac.uk", role = c("aut"),
-           comment = c(ORCID = "https://orcid.org/0000-0001-5782-7330")),
+           comment = c(ORCID = "https://orcid.org/0000-0001-5782-7330"))
+    person(given = "Pratik", family = "Gupte", email = "pratik.gupte@lshtm.ac.uk", role = c("aut"), 
+           comment = c(ORCID = "https://orcid.org/0000-0001-5294-7819"))
     person(given = "Joshua W.", family = "Lambert", email = "joshua.lambert@lshtm.ac.uk", role = c("aut"),
            comment = c(ORCID = "0000-0001-5218-3046"))
   )
