@@ -1,9 +1,8 @@
-# This unexported function adds a custom checklist item to 
-# `usethis::use_release_issue()`
+# This unexported function adds a custom item to `usethis::use_release_issue()`
 release_bullets <- function() {
-  
-  c(
+
+  c( # nolint
     "Run `goodpractice::gp()`"
   )
-  
+
 }
