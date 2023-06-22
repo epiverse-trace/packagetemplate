@@ -16,7 +16,6 @@ on:
       - '.Rbuildignore'
       - '.github/**'
   pull_request:
-    branches: [main, master, dev, develop]
     paths:
       - 'README.Rmd'
       - 'README.md'
