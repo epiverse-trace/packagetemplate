@@ -17,7 +17,6 @@ on:
       - '.Rbuildignore'
       - '.github/workflows/R-CMD-check.yaml'
   pull_request:
-    branches: [main, master, dev, develop]
     paths:
       - 'data/**'
       - 'R/**'

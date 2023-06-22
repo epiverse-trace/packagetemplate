@@ -11,7 +11,6 @@ on:
       - 'DESCRIPTION'
       - '.github/workflows/test-coverage.yaml'
   pull_request:
-    branches: [main, master, dev, develop]
     paths:
       - 'R/**'
       - 'src/**'
