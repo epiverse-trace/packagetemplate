@@ -1,4 +1,4 @@
-Package: packatemplate
+Package: packagetemplate
 Title: Your Package Title in Titlecase
 Version: 0.0.1
 Authors@R: c(
@@ -21,7 +21,7 @@ Description: Your package description. It must end with a period (".") and
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
