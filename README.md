@@ -5,19 +5,25 @@
 <!-- `packagename` is extracted from the DESCRIPTION file -->
 <!-- `gh_repo` is extracted via a special environment variable in GitHub Actions -->
 
-# {{ packagename }}
-
-{{ packagename }} provides functions to ….
+# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
 
 <!-- badges: start -->
 
 [![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
 [![R-CMD-check](https://github.com/%7B%7B%20gh_repo%20%7D%7D/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/%7B%7B%20gh_repo%20%7D%7D/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D/branch/main/graph/badge.svg)](https://app.codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D?branch=main)
 [![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept)
 <!-- badges: end -->
+
+{{ packagename }} provides functions to ….
+
+<!-- This sentence is optional and can be removed -->
+
+{{ packagename }} is developed at the [CENTER\|similar](url) at the
+[UNIVERSITY\|similar](url) as part of the [Epiverse-TRACE
+program](https://data.org/initiatives/epiverse/).
 
 ## Installation
 
@@ -26,7 +32,7 @@ You can install the development version of {{ packagename }} from
 
 ``` r
 # install.packages("pak")
-pak::pkg_install("{{ gh_repo }}")
+pak::pak("{{ gh_repo }}")
 ```
 
 ## Example
@@ -46,11 +52,6 @@ package is not ready for use outside of the development team.
 
 Contributions are welcome via [pull
 requests](https://github.com/%7B%7B%20gh_repo%20%7D%7D/pulls).
-
-Contributors to the project include:
-
-- 
-- 
 
 ### Code of Conduct
 

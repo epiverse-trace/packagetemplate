@@ -18,17 +18,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-# {{ packagename }}
-
-{{ packagename }} provides functions to ....
+# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
 
 <!-- badges: start -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
 [![R-CMD-check](https://github.com/{{ gh_repo }}/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/{{ gh_repo }}/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/{{ gh_repo }}/branch/main/graph/badge.svg)](https://app.codecov.io/gh/{{ gh_repo }}?branch=main)
 [![lifecycle-concept](https://raw.githubusercontent.com/reconverse/reconverse.github.io/master/images/badge-concept.svg)](https://www.reconverse.org/lifecycle.html#concept) 
 <!-- badges: end -->
 
+{{ packagename }} provides functions to ....
+
+<!-- This sentence is optional and can be removed -->
+{{ packagename }} is developed at the [CENTER|similar](url) at the [UNIVERSITY|similar](url) as part of the [Epiverse-TRACE program](https://data.org/initiatives/epiverse/).
 
 ## Installation
 
@@ -37,7 +39,7 @@ You can install the development version of {{ packagename }} from
 
 ``` r
 # install.packages("pak")
-pak::pkg_install("{{ gh_repo }}")
+pak::pak("{{ gh_repo }}")
 ```
 
 ## Example
@@ -58,11 +60,6 @@ for use outside of the development team.
 ### Contributions
 
 Contributions are welcome via [pull requests](https://github.com/{{ gh_repo }}/pulls).
-
-Contributors to the project include:
-
-* 
-* 
 
 ### Code of Conduct
 
