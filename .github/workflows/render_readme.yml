@@ -63,6 +63,11 @@ jobs:
             knitr::knit_expand(
               "README.Rmd",
               packagename = read.dcf("DESCRIPTION", "Package"),
+              institution = read.dcf("DESCRIPTION", "Config/Institution"),
+              department = read.dcf("DESCRIPTION", "Config/Department"),
+              department_url = read.dcf("DESCRIPTION", "Config/DepartmentURL"),
+              recon = read.dcf("DESCRIPTION", "Config/Recon"),
+              recon_description = read.dcf("DESCRIPTION", "Config/ReconDescription"),
               gh_repo = Sys.getenv("GITHUB_REPOSITORY")
             ),
             "README_expanded.Rmd"
