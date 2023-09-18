@@ -1,5 +1,5 @@
 linters: all_linters(
-    packages = "lintr",
+    packages = c("lintr", "etdev"),
     object_name_linter = NULL,
     undesirable_function_linter = NULL,
     implicit_integer_linter = NULL,
