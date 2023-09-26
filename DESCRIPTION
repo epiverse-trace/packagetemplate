@@ -13,7 +13,9 @@ Authors@R: c(
     person(given = "Joshua W.", family = "Lambert", email = "joshua.lambert@lshtm.ac.uk", role = c("aut"),
            comment = c(ORCID = "0000-0001-5218-3046")),
     person(given = "Hugo", family = "Gruson", email = "hugo.gruson+R@normalesup.org", role = c("aut"),
-           comment = c(ORCID = "https://orcid.org/0000-0002-4094-1476"))
+           comment = c(ORCID = "https://orcid.org/0000-0002-4094-1476")),
+    person(given = "Karim", family = "Mané", email = "karim.mane@lshtm.ac.uk", role = c("aut"),
+           comment = c(ORCID = "0000-0002-9892-2999"))
   )
 Description: Your package description. It must end with a period (".") and
     include relevant bibliographical references if applicable, using the 
