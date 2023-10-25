@@ -85,4 +85,5 @@ jobs:
             git add man/figures/
           fi
           git diff-index --quiet HEAD || git commit -m "Automatic readme update"
+          git pull --rebase origin ${{ github.ref.name }}
           git push origin || echo "No changes to push"

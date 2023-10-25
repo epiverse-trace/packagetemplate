@@ -52,4 +52,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add CITATION.cff
           git commit -m 'Update CITATION.cff' || echo "No changes to commit"
+          git pull --rebase origin ${{ github.ref.name }}
           git push origin || echo "No changes to commit"
