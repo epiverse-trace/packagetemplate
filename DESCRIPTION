@@ -2,8 +2,6 @@ Package: packagetemplate
 Title: Your Package Title in Titlecase
 Version: 0.0.1
 Authors@R: c(
-    person(given = "Thibaut", family = "Jombart", , email = "thibaut@data.org", role = c("aut", "cre")),
-    person(given = "Avinash", family = "Laddha", , email = "avinash@data.org", role = c("aut")),
     person(given = "James M.", family = "Azam", , email = "james.azam@lshtm.ac.uk", role = c("aut"),
            comment = c(ORCID = "https://orcid.org/0000-0001-5782-7330")),
     person(given = "Jaime A.", family = "Pavlich-Mariscal", , email = "jpavlich@javeriana.edu.co", role = c("ctb"),
