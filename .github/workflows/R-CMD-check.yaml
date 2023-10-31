@@ -22,6 +22,7 @@ on:
       - 'LICENSE'
       - '.Rbuildignore'
       - '.github/workflows/R-CMD-check.yaml'
+  merge_group:
   pull_request:
     paths:
       - 'data/**'
