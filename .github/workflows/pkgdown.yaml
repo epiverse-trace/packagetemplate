@@ -21,6 +21,7 @@ on:
       - 'DESCRIPTION'
       - '.Rbuildignore'
       - '.github/**'
+  merge_group:
   pull_request:
     paths:
       - 'README.Rmd'
