@@ -86,6 +86,7 @@ jobs:
         id: rcmdcheck
         with:
           upload-snapshots: true
+          error-on: '"note"'
 
       # fail-fast but only if rcmdcheck step fails
       - name: Manual fail-fast
