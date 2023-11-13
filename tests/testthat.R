@@ -9,4 +9,4 @@
 library(testthat)
 library(packagetemplate)
 
-test_check("packagetemplate")
+test_check("packagetemplate", stop_on_warning = FALSE)
