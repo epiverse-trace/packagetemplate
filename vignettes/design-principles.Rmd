@@ -37,7 +37,7 @@ None of the sections are required, feel free to remove any sections not relevant
 
 ## Dependencies
 
-< A list of dependencies used by the package with some explanation as to why they are required. Not all dependencies need to be explained. This section can also mention dependencies that are planned to be removed or added in future development. >
+< A list of dependencies used by the package with some explanation as to why they are required. Not all dependencies need to be explained and it is best to explain the key dependencies. It can be used to give context to why certain dependencies are used (e.g. "This package is expected to be used in tidyverse pipelines and as such, we consider these tidyverse packages good dependencies that will already be installed on a user's computer."). This section can also mention dependencies that are planned to be removed or added in future development. Suggested dependencies do not need to be explained unless they are unusual and may surprise developers with their inclusion. >
 
 ## Development journey
 
