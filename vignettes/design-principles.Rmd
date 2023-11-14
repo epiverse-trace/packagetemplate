@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-This vignette outlines the design decisions that have been taken during the development of the {packagetemplate} R package, and provides some of the reasoning, and possible pros and cons of each decision.
+This vignette outlines the design decisions that have been taken during the development of the `{packagetemplate}` R package, and provides some of the reasoning, and possible pros and cons of each decision.
 
 This document is primarily intended to be read by those interested in understanding the code within the package and for potential package contributors.
 
