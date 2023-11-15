@@ -42,7 +42,3 @@ None of the sections are required, feel free to remove any sections not relevant
 ## Development journey
 
 <  If the package has undergone any large refactoring this section can be used to explain the changes. >
-
-## Contribute
-
-< Any additional information for a developer to help them contribute to the package, do not repeat information from the [package contributing guide](https://github.com/epiverse-trace/.github/blob/main/CONTRIBUTING.md). >
