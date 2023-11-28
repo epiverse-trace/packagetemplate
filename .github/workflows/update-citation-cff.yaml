@@ -6,8 +6,9 @@
 on:
   push:
     branches:
-      # This may seem like a no-op but it prevents triggering on tags
-      - '*'
+      # This may seem like a no-op but it prevents triggering on tags.
+      # We use '**' rather '*' to accomodate names like 'dev/branch-1'
+      - '**'
     paths:
       - DESCRIPTION
       - inst/CITATION
