@@ -26,7 +26,8 @@ name: render-readme
 on:
   workflow_dispatch:
   push:
-    tags-ignore:
+    branches:
+      # This may seem like a no-op but it prevents triggering on tags
       - '*'
     paths:
       - 'README.Rmd'
