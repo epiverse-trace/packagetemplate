@@ -17,6 +17,13 @@ on:
 
 name: Update CITATION.cff
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
 jobs:
   update-citation-cff:
     runs-on: ubuntu-latest
