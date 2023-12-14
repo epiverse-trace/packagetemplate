@@ -21,9 +21,8 @@ coverage](https://codecov.io/gh/%7B%7B%20gh_repo%20%7D%7D/branch/main/graph/badg
 
 <!-- This sentence is optional and can be removed -->
 
-{{ packagename }} is developed at the [CENTER\|similar](url) at the
-[UNIVERSITY\|similar](url) as part of the [Epiverse-TRACE
-program](https://data.org/initiatives/epiverse/).
+{{ packagename }} is developed at the CENTER at the UNIVERSITY as part
+of the [Epiverse-TRACE program](https://data.org/initiatives/epiverse/).
 
 ## Installation
 
