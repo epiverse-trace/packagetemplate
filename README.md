@@ -5,7 +5,7 @@
 <!-- `packagename` is extracted from the DESCRIPTION file -->
 <!-- `gh_repo` is extracted via a special environment variable in GitHub Actions -->
 
-# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
+# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" alt="" />
 
 <!-- badges: start -->
 

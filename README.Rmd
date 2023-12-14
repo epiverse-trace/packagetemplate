@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" />
+# {{ packagename }} <img src="man/figures/logo.svg" align="right" width="120" alt="" />
 
 <!-- badges: start -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
