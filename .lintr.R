@@ -1,4 +1,4 @@
-linters: all_linters(
+linters <- all_linters(
     packages = c("lintr", "etdev"),
     object_name_linter = NULL,
     implicit_integer_linter = NULL,
@@ -18,7 +18,7 @@ linters: all_linters(
     # Install etdev package from https://github.com/epiverse-trace/etdev
     backport_linter(if (length(x <- etdev::extract_min_r_version())) x else getRversion())
   )
-exclusions: list(
+exclusions <- list(
     "tests/testthat.R" = list(
       unused_import_linter = Inf
     ),
