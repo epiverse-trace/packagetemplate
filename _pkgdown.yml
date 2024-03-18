@@ -1,3 +1,6 @@
+# FIXME: The url field needs to be updated to contain the URL of the website
+# where the package documentation is hosted
+# (e.g., https://epiverse-trace.github.io/pkg).
 url: ~
 template:
   package: epiversetheme
