@@ -26,6 +26,10 @@ None of the sections are required, feel free to remove any sections not relevant
 
 < Outline the aims of the package, potentially mention some of the key exported functions, and maybe how it links with other R packages. It is also possible to mention certain aspects that fall outside of the package's scope. >
 
+## Naming conventions
+
+< Description of the scheme and/or conventions used for naming functions and arguments. This can be the use of a prefix on all exported functions, a name mould ("all function are named verb_object"), or any other naming convention that is used throughout the package. >
+
 ## Input/Output/Interoperability
 
 < Describe the data structures (i.e. vectors, `<data.frames>` or classes) that are given as input to the key functions and what data structures the functions return. The design decisions around these I/O choices could also mention how it enhances interoperability with other R packages or pipelines (e.g. with `%>%`). >
