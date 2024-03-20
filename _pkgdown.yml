@@ -4,3 +4,9 @@
 url: ~
 template:
   package: epiversetheme
+
+# It is recommended to add a pkgdown reference index, grouping the different
+# function into logical sections (e.g., modules).
+# It is also recommended to rely on selector such as `starts_with()` or
+# `ends_with()` to create this index as it is a good way to force yourself into
+# using a consistent naming convention for your functions.
