@@ -21,6 +21,10 @@
 # RStudio files
 .Rproj.user/
 
+# vignette building
+/doc/
+/Meta/
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
