@@ -1,0 +1,22 @@
+---
+title: "Introduction to pkgname"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to pkgname}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+if (requireNamespace("tracetheme", quietly = TRUE)) {
+  knitr::opts_chunk$set(
+    fig.height = tracetheme::vignette_dim$vig_height,
+    fig.width = tracetheme::vignette_dim$vig_width
+  )
+}
+```
+
