@@ -25,7 +25,9 @@ Suggests:
     knitr,
     rmarkdown,
     spelling,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    tracetheme
+Additional_repositories: https://epiverse-trace.r-universe.dev/
 VignetteBuilder: 
     knitr
 Config/Needs/website: epiverse-trace/epiversetheme
