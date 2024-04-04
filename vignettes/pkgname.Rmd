@@ -17,6 +17,7 @@ if (requireNamespace("tracetheme", quietly = TRUE)) {
     fig.height = tracetheme::vignette_dim$vig_height,
     fig.width = tracetheme::vignette_dim$vig_width
   )
+  ggplot2::theme_set(tracetheme::theme_trace())
 }
 ```
 
