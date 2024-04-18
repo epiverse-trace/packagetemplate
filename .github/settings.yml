@@ -1,32 +1,22 @@
 repository:
-  # See https://developer.github.com/v3/repos/#edit for all available settings.
-  private: false
-  has_issues: true
-  has_wiki: false
-  has_discussions: false
-  has_projects: false
-  default_branch: main
-  # Either `true` to allow squash-merging pull requests, or `false` to prevent
-  # squash-merging.
-  allow_squash_merge: true
-  # Either `true` to allow merging pull requests with a merge commit, or `false`
-  # to prevent merging pull requests with merge commits.
-  allow_merge_commit: true
-  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
-  # rebase-merging.
+  # https://probot.github.io/apps/settings/
+  allow_merge_commit: false
   allow_rebase_merge: true
+  allow_squash_merge: true
+  default_branch: main
+  delete_branch_on_merge: true
+  has_discussions: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: false
 branches:
   - name: main
     # https://docs.github.com/en/rest/reference/repos#update-branch-protection
     protection:
       required_pull_request_reviews:
-        # The number of approvals required. (1-6)
-        required_approving_review_count: 1
-        # Dismiss approved reviews automatically when a new commit is pushed.
+        required_approving_review_count: 1 # (1-6)
         dismiss_stale_reviews: true
-        # Blocks merge until code owners have reviewed.
-        require_code_owner_reviews: true
-      # Required. Require status checks to pass before merging. Set to null to disable
+        require_code_owner_reviews: false
       required_status_checks:
-        # Required. Require branches to be up to date before merging.
         strict: true
