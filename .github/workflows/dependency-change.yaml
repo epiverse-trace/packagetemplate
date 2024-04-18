@@ -67,7 +67,7 @@ jobs:
               "- Removes {length(unique(deps_removed$sysreqs))} existing system dependencies",
               "",
               nudge,
-              "(Note that results may be inacurrate if you branched from an outdated version of the target branch.)"
+              "(Note that results may be inaccurate if you branched from an outdated version of the target branch.)"
             )
 
             message("Posting results as a pull request comment.")
