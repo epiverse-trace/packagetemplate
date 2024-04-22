@@ -1,7 +1,7 @@
 pandoc: 3.1.11
-pkgdown: 2.0.7
+pkgdown: 2.0.9
 pkgdown_sha: ~
 articles:
   design-principles: design-principles.html
-last_built: 2024-03-27T10:40Z
+last_built: 2024-04-22T07:05Z
 
