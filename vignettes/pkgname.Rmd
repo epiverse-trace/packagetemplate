@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+# nolint start: missing_package_linter.
 if (requireNamespace("tracetheme", quietly = TRUE)) {
   knitr::opts_chunk$set(
     fig.height = tracetheme::vignette_dim$vig_height,
@@ -19,5 +20,6 @@ if (requireNamespace("tracetheme", quietly = TRUE)) {
   )
   ggplot2::theme_set(tracetheme::theme_trace())
 }
+# nolint end
 ```
 
