@@ -6,11 +6,11 @@
 # We add a test on R >= 4.0.0 because some functions such as
 # `globalCallingHandlers()` did not exist before.
 get_pars_toreset <- function() {
-  pars <- par()
+  pars <- par(no.readonly = TRUE)
   # The following params are set and modified automatically by plot() and we:
   # 1. have no control over them
   # 2. do not care about resetting them
-  pars <- pars[!names(pars) %in% c("cxy", "usr", "xaxp")]
+  pars <- pars[!names(pars) %in% c("usr", "xaxp")]
 }
 
 if (getRversion() >= "4.0.0") {
