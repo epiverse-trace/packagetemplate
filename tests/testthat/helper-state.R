@@ -7,10 +7,11 @@
 # `globalCallingHandlers()` did not exist before.
 get_pars_toreset <- function() {
   pars <- par(no.readonly = TRUE)
-  # The following params are set and modified automatically by plot() and we:
+  # The following params are set and modified automatically by plot(), as
+  # documented in ?plot.window() and we:
   # 1. have no control over them
   # 2. do not care about resetting them
-  pars <- pars[!names(pars) %in% c("usr", "xaxp")]
+  pars <- pars[!names(pars) %in% c("usr", "xaxp", "yaxp")]
 }
 
 if (getRversion() >= "4.0.0") {
