@@ -1,6 +1,7 @@
 CMD
 Codecov
 Epiverse
+LSHTM
 Lifecycle
 Mariscal
 ORCID
@@ -13,6 +14,7 @@ doi
 gh
 github
 io
+jsq
 lifecycle
 packagename
 svg
