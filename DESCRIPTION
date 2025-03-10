@@ -6,16 +6,17 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5782-7330")),
     person("Hugo", "Gruson", , "hugo@data.org", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4094-1476")),
-    person("Pratik", "Gupte", , "pratik.gupte@lshtm.ac.uk", role = "aut",
-           comment = c(ORCID = "0000-0001-5294-7819")),
     person("Joshua W.", "Lambert", , "joshua.lambert@lshtm.ac.uk", role = "aut",
            comment = c(ORCID = "0000-0001-5218-3046")),
     person("Karim", "Mané", , "karim.mane@lshtm.ac.uk", role = "aut",
            comment = c(ORCID = "0000-0002-9892-2999")),
+    person("Bankole", "Ahadzie", , "bankole.ahadzie@lshtm.ac.uk", role = "aut"),
     person("Jaime A.", "Pavlich-Mariscal", , "jpavlich@javeriana.edu.co", role = "ctb",
            comment = c(ORCID = "0000-0002-3892-6680")),
     person("Chris", "Hartgerink", , "chris@data.org", role = "ctb",
-           comment = c(ORCID = "0000-0003-1050-6809"))
+           comment = c(ORCID = "0000-0003-1050-6809")),
+    person("London School of Hygiene and Tropical Medicine, LSHTM", role = "cph",
+           comment = c(ROR = "00a0jsq62"))
   )
 Description: Your package description. It must end with a period (".") and
     include relevant bibliographical references if applicable, using the
