@@ -14,14 +14,16 @@ Your package description. It must end with a period (".") and include relevant b
 Authors:
 \itemize{
   \item James M. Azam \email{james.azam@lshtm.ac.uk} (\href{https://orcid.org/0000-0001-5782-7330}{ORCID})
-  \item Pratik Gupte \email{pratik.gupte@lshtm.ac.uk} (\href{https://orcid.org/0000-0001-5294-7819}{ORCID})
   \item Joshua W. Lambert \email{joshua.lambert@lshtm.ac.uk} (\href{https://orcid.org/0000-0001-5218-3046}{ORCID})
   \item Karim Mané \email{karim.mane@lshtm.ac.uk} (\href{https://orcid.org/0000-0002-9892-2999}{ORCID})
+  \item Bankole Ahadzie \email{bankole.ahadzie@lshtm.ac.uk}
 }
 
 Other contributors:
 \itemize{
   \item Jaime A. Pavlich-Mariscal \email{jpavlich@javeriana.edu.co} (\href{https://orcid.org/0000-0002-3892-6680}{ORCID}) [contributor]
+  \item Chris Hartgerink \email{chris@data.org} (\href{https://orcid.org/0000-0003-1050-6809}{ORCID}) [contributor]
+  \item London School of Hygiene and Tropical Medicine, LSHTM (00a0jsq62) [copyright holder]
 }
 
 }
