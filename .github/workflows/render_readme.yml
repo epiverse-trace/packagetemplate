@@ -1,3 +1,10 @@
+# This is a modified render_readme workflow, to work with README
+# variables. This allows us to use the same README template across
+# repos, without ever hardcoding repo-specific elements.
+# We currently have two README variables:
+# - `packagename` is extracted from the DESCRIPTION file
+# - `gh_repo` is extracted via a special environment variable in GitHub Actions
+#
 # Reproduce locally by running:
 # ```r
 # pak::pak(c("any::rmarkdown", "any::usethis", "."))
