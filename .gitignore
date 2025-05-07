@@ -54,4 +54,8 @@ rsconnect/
 
 # macOS hidden files
 .DS_Store
-inst/doc
+
+# revdepcheck
+revdep/library
+revdep/data.sqlite
+revdep/checks
