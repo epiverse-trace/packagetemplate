@@ -5,6 +5,9 @@
 # - `packagename` is extracted from the DESCRIPTION file
 # - `gh_repo` is extracted via a special environment variable in GitHub Actions
 #
+# Custom README dependencies (which are not otherwise used in the package) can
+# be listed in DESCRIPTION in the Config/Needs/readme field
+#
 # Reproduce locally by running:
 # ```r
 # pak::pak(c("any::rmarkdown", "any::usethis", "."))
@@ -70,6 +73,7 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: any::rmarkdown, local::.
+          needs: readme
 
       - name: Compile the readme
         run: |
