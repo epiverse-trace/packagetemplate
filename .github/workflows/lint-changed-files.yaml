@@ -32,6 +32,7 @@ jobs:
         with:
           extra-packages: |
             any::gh
+            any::lifecycle
             any::lintr
             any::purrr
             any::cyclocomp

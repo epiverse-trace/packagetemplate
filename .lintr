@@ -1,5 +1,5 @@
 linters: all_linters(
-    packages = "lintr",
+    packages = c("lifecycle", "lintr"),
     pipe_consistency_linter(pipe = "|>"),
     object_name_linter = NULL,
     implicit_integer_linter = NULL,
