@@ -37,7 +37,7 @@ jobs:
     needs: download-from-packagetemplate
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: config-from-packagetemplate
       - uses: peter-evans/create-pull-request@v7
