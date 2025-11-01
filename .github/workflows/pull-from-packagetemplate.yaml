@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: epiverse-trace/packagetemplate
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: config-from-packagetemplate
           path: |
